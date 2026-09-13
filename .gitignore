@@ -1,0 +1,5 @@
+config.toml
+cron.log
+err.log
+__pycache__/
+.venv/

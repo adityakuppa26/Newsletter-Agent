@@ -1,0 +1,9 @@
+[project]
+name = "daily-briefing"
+version = "0.1.0"
+description = "Daily news briefing agent"
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser>=6.0.14",
+    "requests>=2.34.2",
+]

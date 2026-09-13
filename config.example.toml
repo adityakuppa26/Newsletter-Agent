@@ -1,0 +1,52 @@
+model = "moonshotai/kimi-k2"
+fallback_model = "openai/gpt-4o-mini"
+openrouter_api_key = "sk-or-REPLACE-ME"
+lookback_hours = 26
+max_items_per_section = 10
+
+[email]
+from_addr = "briefing@yourdomain.com"
+to_addr = ["you@example.com"]
+smtp_host = "email-smtp.us-east-1.amazonaws.com"
+smtp_port = 587
+smtp_user = "REPLACE"
+smtp_password = "REPLACE"
+
+[[sections]]
+name = "Tech"
+feeds = [
+  "https://techcrunch.com/feed/",
+  "https://www.theverge.com/rss/index.xml",
+  "https://feeds.arstechnica.com/arstechnica/index",
+  "https://www.wired.com/feed/rss",
+  "https://hnrss.org/frontpage",
+]
+
+[[sections]]
+name = "Politics"
+feeds = [
+  "https://thehill.com/rss/syndicator/19110/",
+  "https://www.cbsnews.com/latest/rss/politics",
+  "https://abcnews.go.com/abcnews/politicsheadlines",
+  "https://feeds.npr.org/1013/rss.xml",
+  "https://feeds.bbci.co.uk/news/politics/rss.xml",
+]
+
+[[sections]]
+name = "Finance"
+feeds = [
+  "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+  "https://feeds.bbci.co.uk/news/business/rss.xml",
+  "https://feeds.npr.org/1006/rss.xml",
+  "https://finance.yahoo.com/news/rssindex",
+]
+
+[[sections]]
+name = "World"
+feeds = [
+  "https://feeds.npr.org/1001/rss.xml",
+  "https://feeds.npr.org/1004/rss.xml",
+  "https://www.theguardian.com/world/rss",
+  "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "https://www.aljazeera.com/xml/rss/all.xml",
+]
