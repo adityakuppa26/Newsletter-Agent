@@ -3,3 +3,5 @@ cron.log
 err.log
 __pycache__/
 .venv/
+.sent_state.json
+.riddle_state.json

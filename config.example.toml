@@ -6,6 +6,7 @@ max_items_per_section = 10
 
 [email]
 from_addr = "briefing@yourdomain.com"
+from_name = "Daily Briefing"
 to_addr = ["you@example.com"]
 smtp_host = "email-smtp.us-east-1.amazonaws.com"
 smtp_port = 587
@@ -18,7 +19,7 @@ feeds = [
   "https://techcrunch.com/feed/",
   "https://www.theverge.com/rss/index.xml",
   "https://feeds.arstechnica.com/arstechnica/index",
-  "https://www.wired.com/feed/rss",
+  "https://www.engadget.com/rss.xml",
   "https://hnrss.org/frontpage",
 ]
 

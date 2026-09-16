@@ -46,7 +46,7 @@ See `config.example.toml` for a full annotated example. Key options:
 | `openrouter_api_key` | OpenRouter API key |
 | `lookback_hours` | Only include articles newer than this |
 | `max_items_per_section` | Cap of fetched items per section |
-| `[email]` | SMTP host/port/credentials and from/to addresses |
+| `[email]` | SMTP host/port/credentials and from/to addresses (`from_name` optional) |
 | `[[sections]]` | Named sections, each with a list of RSS feed URLs |
 
 `config.toml` is gitignored -- never commit credentials.
